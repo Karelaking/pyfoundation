@@ -1,9 +1,7 @@
-import cmath
 import math
 
 
 class Algebra:
-    @staticmethod
     def summation(*args):
         """summation returns the sum of the given two values"""
         if isinstance(args[0] and args[1], int):
@@ -56,7 +54,6 @@ class Algebra:
                 summed_list.append(args[0][i] / args[1][i])
             return summed_list
 
-    @staticmethod
     def square_root(*args):
         """square root returns the square root of given value"""
         if isinstance(args[0], int):
@@ -66,7 +63,6 @@ class Algebra:
                 raise ValueError("All elements in the list must be non-negative integers")
             return [math.sqrt(n) for n in args[0]]
 
-    @staticmethod
     def power(*args):
         """power returns the power of the given power with the base"""
         if isinstance(args[0] and args[1], int):
@@ -80,7 +76,6 @@ class Algebra:
                 summed_list.append(math.pow(args[0][i], args[1][i]))
             return summed_list
 
-    @staticmethod
     def factorial(*args):
         """factorial return the factorial of given value"""
         if isinstance(args[0], int):
@@ -90,3 +85,11 @@ class Algebra:
                 raise ValueError("All elements in the list must be non-negative integers")
             return [math.factorial(n) for n in args[0]]
 
+    def sum_of_natural(*args):
+        pass
+
+    def sum_of_square_of_natural(*args):
+        pass
+
+    def sum_of_cube_of_natural(*args):
+        pass
