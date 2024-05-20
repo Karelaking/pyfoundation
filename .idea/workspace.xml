@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f97df2b-16cd-41d5-8222-ae281085d786" name="Changes" comment="Algebra Class Completed">
+    <list default="true" id="1f97df2b-16cd-41d5-8222-ae281085d786" name="Changes" comment="Trigonometry Class Completed">
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physics/kinematics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/text.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathematics/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathematics/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mathematics/algebra.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathematics/algebra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathematics/trigonometry.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathematics/trigonometry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathematics/calculus.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathematics/calculus.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +47,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for text.TestYourTool.test_tool_exists.executor": "Run",
+    "Python tests.Python tests in text.py.executor": "Run",
     "Python.__init__.executor": "Run",
     "Python.algebra.executor": "Run",
     "Python.main.executor": "Run",
@@ -47,7 +56,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Code/numpy",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
@@ -73,6 +84,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for text.TestYourTool.test_tool_exists" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pyfoundation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;text.TestYourTool.test_tool_exists&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for text.TestYourTool.test_tool_exists" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -114,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716048493685</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Trigonometry Class Completed">
+      <option name="closed" value="true" />
+      <created>1716054038477</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716054038477</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +171,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Created Summation And Factorial Function" />
     <MESSAGE value="Algebra Class Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algebra Class Completed" />
+    <MESSAGE value="Trigonometry Class Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trigonometry Class Completed" />
   </component>
 </project>
