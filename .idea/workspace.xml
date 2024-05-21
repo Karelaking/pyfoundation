@@ -4,17 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f97df2b-16cd-41d5-8222-ae281085d786" name="Changes" comment="Trigonometry Class Completed">
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physics/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physics/kinematics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/text.py" afterDir="false" />
+    <list default="true" id="1f97df2b-16cd-41d5-8222-ae281085d786" name="Changes" comment="Recreated Algebra File">
+      <change afterPath="$PROJECT_DIR$/Pyfoundation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pyfoundation/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pyfoundation/core/mathematics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pyfoundation/core/mathematics/algebra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pyfoundation/core/physics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pyfoundation/core/physics/kinematics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pyfoundation/core/physics/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pyfoundation/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pyfoundation/test/test_kinematics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pyfoundation/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyfoundation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathematics/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathematics/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathematics/algebra.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathematics/algebra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathematics/calculus.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathematics/calculus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathematics/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathematics/algebra.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathematics/calculus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyfoundation/core/mathematics/calculus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathematics/trigonometry.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyfoundation/core/mathematics/trigonometry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physics/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/physics/kinematics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyfoundation/test/test_algebra.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +61,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for text.TestYourTool.test_tool_exists.executor": "Run",
+    "Python tests.Python tests in test_kinematics.py.executor": "Run",
     "Python tests.Python tests in text.py.executor": "Run",
     "Python.__init__.executor": "Run",
     "Python.algebra.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.pyfoundation.executor": "Run",
+    "Python.setup.executor": "Run",
+    "Python.test.executor": "Run",
     "Python.trigonometry.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -61,6 +78,12 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Python\pyfoundation\Pyfoundation\core" />
+      <recent name="D:\Code\Python\pyfoundation\Pyfoundation" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python">
       <module name="pyfoundation" />
@@ -84,24 +107,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for text.TestYourTool.test_tool_exists" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.test_algebra" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pyfoundation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pyfoundation/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;text.TestYourTool.test_tool_exists&quot;" />
+      <option name="_new_target" value="&quot;test.test_algebra&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_kinematics.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pyfoundation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pyfoundation/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Pyfoundation/test/test_kinematics.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for text.TestYourTool.test_tool_exists" />
+        <item itemvalue="Python tests.Python tests in test_kinematics.py" />
+        <item itemvalue="Python tests.Python tests for test.test_algebra" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716054038477</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Recreated Algebra File">
+      <option name="closed" value="true" />
+      <created>1716236060444</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716236060444</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +219,7 @@
     <MESSAGE value="Created Summation And Factorial Function" />
     <MESSAGE value="Algebra Class Completed" />
     <MESSAGE value="Trigonometry Class Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trigonometry Class Completed" />
+    <MESSAGE value="Recreated Algebra File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recreated Algebra File" />
   </component>
 </project>
