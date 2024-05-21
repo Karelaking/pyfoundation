@@ -12,8 +12,7 @@ class Algebra:
         :rtype: f"{dataType}"
         """
         if not args:
-            return 0
-            # raise ValueError("At least one argument is required.")
+            raise ValueError("At least one argument is required.")
         # If all arguments are integers
         if all(isinstance(arg, (int, float)) for arg in args):
             return sum(args)
@@ -47,7 +46,7 @@ class Algebra:
         raise TypeError("Inputs must be all numbers (integers or floats) or all lists of numbers of the same length.")
 
     @staticmethod
-    def multiplication(*args):
+    def multiplication(*args: dataType) -> dataType:
         """Multiplication returns the product of multiple numbers (integers or floats) or element-wise multiplication
             of multiple lists of numbers."""
         if not args:
@@ -70,7 +69,7 @@ class Algebra:
         raise TypeError("Inputs must be all numbers (integers or floats) or all lists of numbers of the same length.")
 
     @staticmethod
-    def division(*args):
+    def division(*args: dataType) -> dataType:
         """Division returns the division of multiple numbers (integers or floats) or element-wise division of multiple
             lists of numbers."""
         if not args:
@@ -92,7 +91,7 @@ class Algebra:
         raise TypeError("Inputs must be all numbers (integers or floats) or all lists of numbers of the same length.")
 
     @staticmethod
-    def square_root(*args):
+    def square_root(*args: dataType) -> dataType:
         """Square root returns the square root of given values (integers or floats)."""
         if not args:
             raise ValueError("At least one argument is required.")
@@ -109,14 +108,14 @@ class Algebra:
         raise TypeError("Input must be a single non-negative number or a list of non-negative numbers")
 
     @staticmethod
-    def power(*args):
+    def power(*args: dataType) -> dataType:
         """Power returns the power of the given base and exponent."""
         if len(args) != 2:
             raise ValueError("Two arguments are required: base(s) and exponent(s).")
         base, exponent = args
         # Single number case
         if isinstance(base, (int, float)) and isinstance(exponent, (int, float)):
-            return math.pow(base, exponent)
+            return pow(base, exponent)
         # Lists case
         if isinstance(base, list) and isinstance(exponent, list):
             if len(base) != len(exponent):
@@ -125,11 +124,11 @@ class Algebra:
                 raise TypeError("All elements in the base list must be integers or floats.")
             if not all(isinstance(e, (int, float)) for e in exponent):
                 raise TypeError("All elements in the exponent list must be integers or floats.")
-            return [math.pow(b, e) for b, e in zip(base, exponent)]
+            return [pow(b, e) for b, e in zip(base, exponent)]
         raise TypeError("Arguments must be either both numbers or both lists of numbers.")
 
     @staticmethod
-    def factorial(*args):
+    def factorial(*args: dataType) -> dataType:
         """Factorial returns the factorial of given values."""
         if len(args) != 1:
             raise ValueError(
@@ -148,7 +147,7 @@ class Algebra:
         raise TypeError("Input must be a single non-negative integer or a list of non-negative integers.")
 
     @staticmethod
-    def log(*args):
+    def log(*args: dataType) -> dataType:
         """Log returns the natural logarithm of given values."""
         if len(args) != 1:
             raise ValueError(
@@ -167,7 +166,7 @@ class Algebra:
         raise TypeError("Input must be a single positive number or a list of positive numbers.")
 
     @staticmethod
-    def log10(*args):
+    def log10(*args: dataType) -> dataType:
         """Log10 returns the base-10 logarithm of given values."""
         if len(args) != 1:
             raise ValueError("Exactly one argument is required: a positive number or a list of positive numbers.")
@@ -185,11 +184,11 @@ class Algebra:
         raise TypeError("Input must be a single positive number or a list of positive numbers.")
 
     @staticmethod
-    def ln(*args):
+    def ln(*args: dataType) -> dataType:
         pass
 
     @staticmethod
-    def exponential(*args):
+    def exponential(*args: int) -> dataType:
         """Exponential returns the exponential (e^x) of given values."""
         if len(args) != 1:
             raise ValueError("Exactly one argument is required: a number or a list of numbers.")
@@ -205,12 +204,12 @@ class Algebra:
         raise TypeError("Input must be a single number or a list of numbers.")
 
     @staticmethod
-    def sum_natural_numbers(*args):
+    def sum_natural_numbers(*args: Union[int, List[int]]) -> dataType:
         """Sum of natural numbers up to the given values."""
         if len(args) != 1:
             raise ValueError(
                 "Exactly one argument is required: a non-negative integer or a list of non-negative integers.")
-        value = args[0]
+        _value = args[0]
 
         # Function to calculate the sum of natural numbers up to n
         def sum_up_to(n):
@@ -219,37 +218,37 @@ class Algebra:
             return n * (n + 1) // 2
 
         # Single integer case
-        if isinstance(value, int):
-            return sum_up_to(value)
+        if isinstance(_value, int):
+            return sum_up_to(_value)
         # List of integers case
-        if isinstance(value, list):
-            if not all(isinstance(n, int) and n >= 0 for n in value):
+        if isinstance(_value, list):
+            if not all(isinstance(n, int) and n >= 0 for n in _value):
                 raise ValueError("All elements in the list must be non-negative integers.")
-            return [sum_up_to(n) for n in value]
+            return [sum_up_to(n) for n in _value]
         raise TypeError("Input must be a single non-negative integer or a list of non-negative integers.")
 
     @staticmethod
-    def sum_squares_natural_numbers(*args):
+    def sum_squares_natural_numbers(*args: Union[int, List[int]]) -> dataType:
         """Returns the sum of the squares of all natural numbers in the input."""
         if len(args) != 1:
             raise ValueError("Exactly one argument is required: a natural number or a list of natural numbers.")
-        value = args[0]
+        _value = args[0]
 
         def is_natural_number(n):
             return isinstance(n, int) and n > 0
 
         # Single number case
-        if is_natural_number(value):
-            return value * (value + 1) * (2 * value + 1) // 6
+        if is_natural_number(_value):
+            return _value * (_value + 1) * (2 * _value + 1) // 6
         # List of numbers case
-        if isinstance(value, list):
-            if not all(is_natural_number(n) for n in value):
+        if isinstance(_value, list):
+            if not all(is_natural_number(n) for n in _value):
                 raise ValueError("All elements in the list must be natural numbers.")
-            return sum(n * (n + 1) * (2 * n + 1) // 6 for n in value)
+            return sum(n * (n + 1) * (2 * n + 1) // 6 for n in _value)
         raise TypeError("Input must be a natural number or a list of natural numbers.")
 
     @staticmethod
-    def sum_cubes_natural_numbers(*args):
+    def sum_cubes_natural_numbers(*args: Union[int, List[int]]) -> dataType:
         """Returns the sum of the cubes of all natural numbers in the input."""
         if len(args) != 1:
             raise ValueError("Exactly one argument is required: a natural number or a list of natural numbers.")
@@ -258,7 +257,7 @@ class Algebra:
         # Helper function to calculate the cube
         def cube(n):
             if isinstance(n, int) and n > 0:
-                return n ** 3
+                return pow(n, 3)
             else:
                 raise ValueError("All elements must be natural numbers.")
 
@@ -271,3 +270,4 @@ class Algebra:
                 raise ValueError("All elements in the list must be natural numbers.")
             return sum(cube(n) for n in value)
         raise TypeError("Input must be a single natural number or a list of natural numbers.")
+

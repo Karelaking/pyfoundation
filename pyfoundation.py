@@ -12,5 +12,3 @@ class Pyfoundation(Kinematics, Algebra, Trigonometry):
         self.tau = 6.283185307179586
 
 
-value = Pyfoundation
-print(value.summation())

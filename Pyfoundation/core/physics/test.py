@@ -108,6 +108,30 @@ NumberList = List[Number]
 
 
 def summation(a: Union[Number, NumberList], b: Union[Number, NumberList]) -> Union[Number, NumberList]:
+    """
+     Calculate the sum of corresponding elements in two lists or the sum of two integers.
+
+     This function accepts either two integers or two lists of equal length as input.
+     If two integers are provided, it returns their sum.
+     If two lists are provided, it returns a new list where each element is the sum of the corresponding elements
+     from the input lists.
+
+     Parameters:
+     *args: Either two integers or two lists of equal length.
+
+     Returns:
+     int or list: The sum of two integers or a new list containing the sum of corresponding elements.
+
+     Raises:
+     ValueError: If the input lists have different lengths.
+     TypeError: If the inputs are not integers or lists.
+
+     Examples:
+     > summation(3, 4)
+     7
+     > summation([1, 2, 3], [4, 5, 6])
+     [5, 7, 9]
+     """
     if isinstance(a, list) and isinstance(b, list):
         if len(a) != len(b):
             raise ValueError("Both lists must have the same length")

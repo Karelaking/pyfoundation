@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../R_with_python/.idea/R_with_python.iml" filepath="$PROJECT_DIR$/../R_with_python/.idea/R_with_python.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pyfoundation.iml" filepath="$PROJECT_DIR$/.idea/pyfoundation.iml" />
     </modules>
   </component>

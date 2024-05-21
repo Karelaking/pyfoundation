@@ -4,30 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f97df2b-16cd-41d5-8222-ae281085d786" name="Changes" comment="Recreated Algebra File">
-      <change afterPath="$PROJECT_DIR$/Pyfoundation/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyfoundation/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyfoundation/core/mathematics/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyfoundation/core/mathematics/algebra.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyfoundation/core/physics/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyfoundation/core/physics/kinematics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyfoundation/core/physics/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyfoundation/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyfoundation/test/test_kinematics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pyfoundation/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyfoundation.py" afterDir="false" />
+    <list default="true" id="1f97df2b-16cd-41d5-8222-ae281085d786" name="Changes" comment="Restructuring All The Project.">
+      <change afterPath="$PROJECT_DIR$/../R_with_python/.idea/R_with_python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R_with_python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R_with_python/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R_with_python/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R_with_python/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R_with_python/.idea/rGraphicsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R_with_python/.idea/rSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R_with_python/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R_with_python/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R_with_python/main.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R_with_python/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pyfoundation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyfoundation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathematics/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathematics/algebra.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathematics/calculus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyfoundation/core/mathematics/calculus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathematics/trigonometry.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyfoundation/core/mathematics/trigonometry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physics/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/physics/kinematics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pyfoundation/core/mathematics/algebra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyfoundation/core/mathematics/algebra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pyfoundation/core/physics/kinematics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyfoundation/core/physics/kinematics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pyfoundation/core/physics/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyfoundation/core/physics/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyfoundation.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfoundation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pyfoundation/test/test_algebra.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="R Script" />
       </list>
     </option>
   </component>
@@ -45,6 +43,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2023.3/python_stubs/-1310136996/builtins.py" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2023.3/python_stubs/-1310136996/math.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
@@ -58,33 +57,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for text.TestYourTool.test_tool_exists.executor": "Run",
-    "Python tests.Python tests in test_kinematics.py.executor": "Run",
-    "Python tests.Python tests in text.py.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.algebra.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.pyfoundation.executor": "Run",
-    "Python.setup.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.trigonometry.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Code/numpy",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for text.TestYourTool.test_tool_exists.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_kinematics.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in text.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.algebra.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pyfoundation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.setup.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trigonometry.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code/numpy&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\Python\pyfoundation\Pyfoundation\core" />
       <recent name="D:\Code\Python\pyfoundation\Pyfoundation" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.__init__">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python">
       <module name="pyfoundation" />
       <option name="ENV_FILES" value="" />
@@ -99,6 +98,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="algebra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyfoundation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pyfoundation/core/mathematics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pyfoundation/core/mathematics/algebra.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,6 +160,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.algebra" />
         <item itemvalue="Python tests.Python tests in test_kinematics.py" />
         <item itemvalue="Python tests.Python tests for test.test_algebra" />
       </list>
@@ -200,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716236060444</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Restructuring All The Project.">
+      <option name="closed" value="true" />
+      <created>1716267975783</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716267975783</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +250,7 @@
     <MESSAGE value="Algebra Class Completed" />
     <MESSAGE value="Trigonometry Class Completed" />
     <MESSAGE value="Recreated Algebra File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recreated Algebra File" />
+    <MESSAGE value="Restructuring All The Project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructuring All The Project." />
   </component>
 </project>
